@@ -236,6 +236,54 @@ export default function Home() {
           </nav>
         </section>
 
+        <section className="privacy">
+          <div className="privacy-inner">
+            <h2 className="privacy-title">Caso Snowden (2013) - Las telecomunicaciones y la privacidad</h2>
+            <p>El caso Snowden (2013) fue la mayor filtración de inteligencia en la historia de EE.UU., protagonizada por el excontratista de la NSA Edward Snowden. Reveló programas de vigilancia masiva global como PRISM y Tempora, demostrando que la NSA y agencias aliadas espiaban comunicaciones privadas de ciudadanos y líderes mundiales, provocando un debate internacional sobre privacidad.</p>
+            <div className="privacy-list">
+              <div className="privacy-item">
+                <div className="privacy-media" aria-hidden style={{backgroundImage: `url('/images/panels/privacy1.jpg')`}}></div>
+                <div className="privacy-text">
+                  <h3>Vigilancia y metadatos</h3>
+                  <p>Las operadoras y agencias pueden recolectar metadatos (quién se comunica con quién, cuándo y desde dónde). Aunque no siempre contienen contenido, estos metadatos permiten reconstruir redes sociales y patrones de comportamiento.</p>
+                </div>
+              </div>
+
+              <div className="privacy-item">
+                <div className="privacy-media" aria-hidden style={{backgroundImage: `url('/images/panels/privacy2.jpg')`}}></div>
+                <div className="privacy-text">
+                  <h3>Cifrado de extremo a extremo</h3>
+                  <p>El cifrado de extremo a extremo protege el contenido de las comunicaciones frente a interceptaciones. Sin cifrado fuerte, los mensajes pueden ser leídos por terceros que tengan acceso a los canales de transmisión.</p>
+                </div>
+              </div>
+
+              <div className="privacy-item">
+                <div className="privacy-media" aria-hidden style={{backgroundImage: `url('/images/panels/privacy3.jpg')`}}></div>
+                <div className="privacy-text">
+                  <h3>Retención y minimización de datos</h3>
+                  <p>Políticas de retención excesiva incrementan riesgos; aplicar minimización (recoger sólo lo necesario) reduce exposición ante brechas y solicitudes de vigilancia.</p>
+                </div>
+              </div>
+
+              <div className="privacy-item">
+                <div className="privacy-media" aria-hidden style={{backgroundImage: `url('/images/panels/privacy4.jpg')`}}></div>
+                <div className="privacy-text">
+                  <h3>Transparencia y consentimiento</h3>
+                  <p>Los usuarios deben recibir información clara sobre qué datos se recogen y para qué fines. El consentimiento informado y opciones de control fortalecen la confianza en los servicios de telecomunicaciones.</p>
+                </div>
+              </div>
+
+              <div className="privacy-item">
+                <div className="privacy-media" aria-hidden style={{backgroundImage: `url('/images/panels/privacy5.jpg')`}}></div>
+                <div className="privacy-text">
+                  <h3>Regulación y buenas prácticas</h3>
+                  <p>Regulaciones como GDPR y buenas prácticas técnicas (encriptación, auditorías, respuesta a incidentes) equilibran la innovación con la protección de derechos fundamentales.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="insights">
           <h2 className="insights-title">Reflexiones</h2>
           <div className="bubbles">

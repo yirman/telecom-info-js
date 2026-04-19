@@ -53,6 +53,28 @@ main { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neu
 .concepts-header { max-width: 1100px; margin: 1.5rem auto 0; padding: 0 1rem; display:flex; justify-content:center; align-items:center; }
 .concepts-title { margin: 0; font-size: clamp(1rem, 2.2vw, 1.4rem); color: #0f172a; font-weight: 600; text-align: center; }
 
+/* Privacy section */
+.privacy { max-width: 1100px; margin: 1.5rem auto; padding: 1rem; border-radius: 10px; background: linear-gradient(180deg,#ffffff,#fbfdff); border: 1px solid #e6eef6; box-shadow: 0 6px 18px rgba(2,6,23,0.04); }
+.privacy-inner { padding: 0 1rem; }
+.privacy-title { margin: 0 0 0.5rem; font-size: clamp(1rem, 2.2vw, 1.3rem); color: #0f172a; font-weight: 600; text-align: center; }
+.privacy p { margin: 0; color: #374151; line-height: 1.6; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; }
+
+/* Privacy list items: image + text, alternating */
+.privacy-list { display: flex; flex-direction: column; gap: 1rem; margin-top: 0.75rem; }
+.privacy-item { display: flex; gap: 1rem; align-items: center; }
+.privacy-media { flex: 0 0 45%; height: 160px; border-radius: 8px; background-size: cover; background-position: center; background-repeat: no-repeat; border: 1px solid rgba(15,23,42,0.04); }
+.privacy-text { flex: 1; }
+.privacy-text h3 { margin: 0 0 0.4rem; font-size: 1.05rem; }
+.privacy-text p { margin: 0; color: #374151; }
+
+/* Alternate layout for every even item */
+.privacy-item:nth-child(even) { flex-direction: row-reverse; }
+
+@media (max-width: 900px) {
+	.privacy-item { flex-direction: column; }
+	.privacy-media { width: 100%; height: 180px; flex: none; }
+}
+
 /* Small adjustments */
 h1 { font-size: 2rem; margin-bottom: 0.5rem; }
 p { line-height: 1.6; }
