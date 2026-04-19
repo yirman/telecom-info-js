@@ -103,6 +103,28 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="slide">
+          <nav>
+            <input className="slide-input" type="radio" id="slideCheckbox1" name="slides" defaultChecked />
+            <label className="slide-button" htmlFor="slideCheckbox1" style={{fontSize: '1.5vw'}}>Antes de la electricidad</label>
+
+            <input className="slide-input" type="radio" id="slideCheckbox2" name="slides" />
+            <label className="slide-button" htmlFor="slideCheckbox2" style={{fontSize: '1.5vw'}}>1800–1900</label>
+
+            <input className="slide-input" type="radio" id="slideCheckbox3" name="slides" />
+            <label className="slide-button" htmlFor="slideCheckbox3" style={{fontSize: '1.5vw'}}>1900–1950</label>
+
+            <input className="slide-input" type="radio" id="slideCheckbox4" name="slides" />
+            <label className="slide-button" htmlFor="slideCheckbox4" style={{fontSize: '1.5vw'}}>1950–1970</label>
+
+            <input className="slide-input" type="radio" id="slideCheckbox5" name="slides" />
+            <label className="slide-button" htmlFor="slideCheckbox5" style={{fontSize: '1.5vw'}}>1970–2000</label>
+
+            <input className="slide-input" type="radio" id="slideCheckbox6" name="slides" />
+            <label className="slide-button" htmlFor="slideCheckbox6" style={{fontSize: '1.5vw'}}>Más allá</label>
+          </nav>
+        </section>
+
         <section className="export-note">
           <p>Run <code>npm run export</code> to build static HTML in <code>out/</code>.</p>
         </section>

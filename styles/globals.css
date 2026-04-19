@@ -21,3 +21,16 @@ main { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neu
 /* Small adjustments */
 h1 { font-size: 2rem; margin-bottom: 0.5rem; }
 p { line-height: 1.6; }
+
+/* Slide navigation */
+.slide { display: flex; align-items: center; justify-content: center; padding: 1.5rem 1rem; }
+.slide nav { display: flex; gap: 0.6rem; flex-wrap: wrap; justify-content: center; align-items: center; }
+.slide-input { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
+.slide-button { cursor: pointer; padding: 0.45rem 0.9rem; border-radius: 8px; border: 1px solid #d1d5db; background: #ffffff; color: #0f172a; transition: all 160ms ease; box-shadow: 0 1px 0 rgba(2,6,23,0.04); }
+.slide-button:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(2,6,23,0.06); }
+.slide-input:checked + .slide-button { background: #0ea5e9; color: #ffffff; border-color: #0ea5e9; box-shadow: 0 8px 24px rgba(14,165,233,0.16); transform: translateY(-2px); }
+.slide-button:focus-visible { outline: 3px solid rgba(14,165,233,0.18); outline-offset: 2px; }
+
+@media (max-width: 640px) {
+	.slide-button { font-size: 14px !important; padding: 0.4rem 0.6rem; }
+}
