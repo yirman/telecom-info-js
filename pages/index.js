@@ -14,6 +14,12 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="definition">
+          <div className="definition-inner">
+            <p>El autor <strong>Roger L. Freeman</strong> define este concepto como la transmisión de información a distancia, la cual abarca no solo la voz, sino también datos e imágenes mediante señales eléctricas.</p>
+          </div>
+        </section>
+
         <section className="concepts-header">
           <h2 className="concepts-title">Conceptos fundamentales</h2>
         </section>
