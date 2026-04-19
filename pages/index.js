@@ -112,7 +112,7 @@ export default function Home() {
         <section className="slide">
           <div className="slides">
             <div className="slide-panel panel1">
-              <div className="panel-image" aria-hidden style={{backgroundImage: `url('/images/panels/panel1.jpg')`}}></div>
+              <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel1.jpg')`}}></div>
                 <div className="panel-text">
                   <h3>Antes de la electricidad</h3>
                   <p>
@@ -128,7 +128,7 @@ export default function Home() {
             </div>
 
             <div className="slide-panel panel2">
-              <div className="panel-image" aria-hidden style={{backgroundImage: `url('/images/panels/panel2.jpg')`}}></div>
+              <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel2.jpg')`}}></div>
               <div className="panel-text">
                 <h3>1800–1900</h3>
                 <p>
@@ -145,7 +145,7 @@ export default function Home() {
             </div>
 
             <div className="slide-panel panel3">
-              <div className="panel-image" aria-hidden style={{backgroundImage: `url('/images/panels/panel3.jpg')`}}></div>
+              <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel3.jpg')`}}></div>
               <div className="panel-text">
                 <h3>1900–1950</h3>
                 <p>
@@ -158,7 +158,7 @@ export default function Home() {
             </div>
 
             <div className="slide-panel panel4">
-              <div className="panel-image" aria-hidden style={{backgroundImage: `url('/images/panels/panel4.jpg')`}}></div>
+              <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel4.jpg')`}}></div>
               <div className="panel-text">
                 <h3>1950–1970</h3>
                 <p>
@@ -173,7 +173,7 @@ export default function Home() {
             </div>
 
             <div className="slide-panel panel5">
-              <div className="panel-image" aria-hidden style={{backgroundImage: `url('/images/panels/panel5.jpg')`}}></div>
+              <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel5.jpg')`}}></div>
               <div className="panel-text">
                 <h3>1970–2000</h3>
                 <p>
@@ -187,7 +187,7 @@ export default function Home() {
             </div>
 
             <div className="slide-panel panel6">
-              <div className="panel-image" aria-hidden style={{backgroundImage: `url('/images/panels/panel6.jpg')`}}></div>
+              <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel6.jpg')`}}></div>
               <div className="panel-text">
                 <h3>Más allá</h3>
                 <p>
