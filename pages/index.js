@@ -262,6 +262,13 @@ export default function Home() {
           </div>
         </section>
 
+        <footer className="site-footer">
+          <div className="footer-inner">
+            <p className="footer-author">Autor: <strong>Germán Guevara</strong> — <a href="mailto:germanguevara2496@example.com">germanguevara2496@gmail.com</a></p>
+            <p className="footer-copy">© {new Date().getFullYear()} Principios Básicos e Impacto Social de las Telecomunicaciones</p>
+          </div>
+        </footer>
+
       </main>
     </>
   )
