@@ -117,13 +117,13 @@ export default function Home() {
                 <div className="panel-text">
                   <h3>Antes de la electricidad</h3>
                   <p>
-                      1200 a. C.: Se utilizan señales de fuego en el asedio de Troya.<br/>
-                      776 a. C.: Primer uso documentado de palomas mensajeras para anunciar al ganador olímpico a Atenas.<br/>
-                      200 a. C.: Egipto y China utilizan mensajeros a pie y a caballo mediante estaciones de relevo.<br/>
-                      150 a. C.: El historiador griego Polibo convierte el alfabeto griego a numérico, lo que permite la transmisión de textos codificados.<br/>
-                      37 d. C.: Heliógrafos: El emperador romano Tiberio utiliza espejos para comunicarse con su imperio.<br/>
-                      1608: Se inventa el telescopio, lo que permite a los barcos en alta mar utilizar banderas de señales.<br/>
-                      1793: Claude Chappe utiliza semáforos mecánicos en torres en lo alto de las colinas en Francia.
+                    <span className="year">1200 a. C.:</span> Se utilizan señales de fuego en el asedio de Troya.<br/>
+                    <span className="year">776 a. C.:</span> Primer uso documentado de palomas mensajeras para anunciar al ganador olímpico a Atenas.<br/>
+                    <span className="year">200 a. C.:</span> Egipto y China utilizan mensajeros a pie y a caballo mediante estaciones de relevo.<br/>
+                    <span className="year">150 a. C.:</span> El historiador griego Polibo convierte el alfabeto griego a numérico, lo que permite la transmisión de textos codificados.<br/>
+                    <span className="year">37 d. C.:</span> Heliógrafos: El emperador romano Tiberio utiliza espejos para comunicarse con su imperio.<br/>
+                    <span className="year">1608:</span> Se inventa el telescopio, lo que permite a los barcos en alta mar utilizar banderas de señales.<br/>
+                    <span className="year">1793:</span> Claude Chappe utiliza semáforos mecánicos en torres en lo alto de las colinas en Francia.
                   </p>
                 </div>
             </div>
@@ -132,15 +132,29 @@ export default function Home() {
               <div className="panel-image" aria-hidden></div>
               <div className="panel-text">
                 <h3>1800–1900</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-              </div>
+                <p>
+                  <span className="year">1835:</span> Joseph Henry inventa el primer telégrafo eléctrico.<br/>
+                  <span className="year">1844:</span> Utilizando su nuevo código, Samuel Morse envía el primer mensaje telegráfico, "¿Qué ha hecho Dios?", entre Washington D.C. y Baltimore.<br/>
+                  <span className="year">1858:</span> Se completa la construcción del primer cable telegráfico transatlántico.<br/>
+                  <span className="year">1876:</span> Alexander Graham Bell patenta el teléfono.<br/>
+                  <span className="year">1881:</span> Se publican las primeras Páginas Amarillas.<br/>
+                  <span className="year">1887:</span> El inventor del teléfono público, William Gray, instala el primer teléfono de monedas en el Banco de Hartford.<br/>
+                  <span className="year">1889:</span> Almon Strowger inventa la primera marcación directa, eliminando la necesidad de conmutación manual.<br/>
+                  <span className="year">1895:</span> El inventor italiano Guglielmo Marconi desarrolla el primer telégrafo inalámbrico de larga distancia, utilizando ondas de radio.
+                </p>
+                </div>
             </div>
 
             <div className="slide-panel panel3">
               <div className="panel-image" aria-hidden></div>
               <div className="panel-text">
                 <h3>1900–1950</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>
+                  <span className="year">1915:</span> Se realiza la primera llamada oficial de costa a costa entre A.G. Bell en Nueva York y Thomas Watson en San Francisco.<br/>
+                  <span className="year">1927:</span> Se inaugura el servicio telefónico transatlántico para uso comercial (EE. UU. a Gran Bretaña), utilizando radiotelefonía.<br/>
+                  <span className="year">1929:</span> Herbert Hoover se convierte en el primer presidente de los Estados Unidos con un teléfono en su escritorio.<br/>
+                  <span className="year">1946:</span> 250 000 mujeres son contratadas como operadoras de centralita para el sector público y las empresas.
+                </p>
               </div>
             </div>
 
@@ -148,7 +162,14 @@ export default function Home() {
               <div className="panel-image" aria-hidden></div>
               <div className="panel-text">
                 <h3>1950–1970</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent.</p>
+                <p>
+                  <span className="year">1955:</span> Se instala el primer cable telefónico transatlántico.<br/>
+                  <span className="year">1957:</span> Comienzan las pruebas de campo de los primeros buscapersonas en Allentown y Bethlehem, Pensilvania.<br/>
+                  <span className="year">1958:</span> Se presentan los Princess Phones, los primeros teléfonos con dial iluminado, que se convirtieron en parte de la cultura popular estadounidense.<br/>
+                  <span className="year">1960:</span> Se lanzan al mercado los primeros teléfonos de marcación por tonos, que tenían 10 botones, en lugar de los 12 actuales.<br/>
+                  <span className="year">1963:</span> Se establece una línea directa entre la Casa Blanca y el Kremlin tras la crisis de los misiles cubanos.<br/>
+                  <span className="year">1968:</span> Se elige el 911 como número de emergencia nacional. Las compañías telefónicas del país acuerdan que esta secuencia de tres dígitos no esté disponible como número de centralita.
+                </p>
               </div>
             </div>
 
@@ -156,7 +177,13 @@ export default function Home() {
               <div className="panel-image" aria-hidden></div>
               <div className="panel-text">
                 <h3>1970–2000</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam.</p>
+                <p>
+                  <span className="year">1971:</span> Ray Tomlinson se envía el primer correo electrónico a sí mismo a través de ARPANET.<br/>
+                  <span className="year">1973:</span> Se presenta al público el DynaTAC, el primer teléfono móvil que no era para automóviles.<br/>
+                  <span className="year">1989:</span> Se lanza el primer teléfono plegable, dirigido a consumidores adinerados a un precio de 3000 dólares estadounidenses.<br/>
+                  <span className="year">1989:</span> Nace la World Wide Web, marcando el comienzo de Internet tal como la conocemos hoy. La mayoría de los estadounidenses se conectan a Internet a través de sus líneas telefónicas.<br/>
+                  <span className="year">1991:</span> Se introduce la identificación de llamadas. Polémica en su momento, la identificación de llamadas se ha convertido en la función adicional más popular en Estados Unidos.
+                </p>
               </div>
             </div>
 
@@ -164,7 +191,28 @@ export default function Home() {
               <div className="panel-image" aria-hidden></div>
               <div className="panel-text">
                 <h3>Más allá</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p>
+                <p>
+                  <span className="year">2000:</span> El “Web Phone” combina un teléfono tradicional con una pantalla táctil LCD y un teclado retráctil para permitir a los usuarios navegar por internet, consultar el correo electrónico, realizar llamadas y revisar el buzón de voz desde un solo dispositivo.<br/>
+                  <span className="year">2000:</span> El “Thin Phone” integra el acceso inalámbrico a internet con el servicio de telefonía móvil local, permitiendo a los usuarios de internet mantenerse conectados a todo, desde páginas web hasta llamadas y correo electrónico, incluso en movimiento.<br/>
+                  <span className="year">2001:</span> NTT DoCoMo lanza comercialmente en Japón la tecnología celular de tercera generación (3G) con el estándar WCDMA (Acceso Múltiple por División de Código de Banda Ancha).<br/>
+                  <span className="year">2004:</span> Mark Zuckerberg lanza Facebook, una red social que surgió entre estudiantes de Harvard.<br/>
+                  <span className="year">2005:</span> Ex empleados de PayPal presentan YouTube, una plataforma para compartir videos que desde entonces ha alcanzado más de 14 mil millones de videos.<br/>
+                  <span className="year">2006:</span> Twitter, la plataforma de redes sociales creada por Jack Dorsey, Noah Glass, Biz Stone y Evan Williams, permite a los usuarios compartir mensajes cortos o imágenes en forma de «tweets» y «retuitear» los mensajes de otros.<br/>
+                  <span className="year">2007:</span> Se lanza el primer modelo de iPhone con un precio de 499 dólares para la versión de 4 GB y de 599 dólares para la de 8 GB. Fue el primer teléfono en adoptar completamente la interfaz táctil y ofrecer tres funciones en un solo dispositivo.<br/>
+                  <span className="year">2009:</span> La primera tecnología celular comercial de cuarta generación (4G) se implementa en Estocolmo y Oslo por el operador de red sueco-finlandés TeliaSonera y su marca noruega NetCom.<br/>
+                  <span className="year">2009:</span> WhatsApp, el servicio de mensajería instantánea y voz sobre IP, es fundado por los exempleados de Yahoo! Brian Acton y Jan Koum.<br/>
+                  <span className="year">2010:</span> Se funda Instagram, el servicio de redes sociales para compartir fotos y videos, con un fuerte enfoque en los hashtags y el etiquetado de ubicación.<br/>
+                  <span className="year">2011:</span> Snapchat, una aplicación de mensajería instantánea, es desarrollada por Reggie Brown, Bobby Murphy y Evan Spiegel.<br/>
+                  <span className="year">2011:</span> Apple presenta Siri, un asistente de inteligencia artificial (IA), con el iPhone 4S.<br/>
+                  <span className="year">2012:</span> Tras lanzar una versión beta, Zoom firma un contrato con la Universidad de Stanford como su primer cliente.<br/>
+                  <span className="year">2015:</span> Se lanza Discord, una plataforma de llamadas, mensajería instantánea y redes sociales basada en Voz sobre Protocolo de Internet (VoIP).<br/>
+                  <span className="year">2016:</span> El número de conexiones móviles supera la población mundial. A pesar de esto, el porcentaje de usuarios de internet a nivel mundial alcanza solo el 43%.<br/>
+                  <span className="year">2019:</span> T-Mobile es la primera empresa en lanzar una red 5G comercialmente disponible.<br/>
+                  <span className="year">2020:</span> Las aplicaciones de videoconferencia como Zoom se convierten en herramientas esenciales para el trabajo y la educación, debido al aislamiento social provocado por la pandemia de COVID-19.<br/>
+                  <span className="year">2022:</span> Herramientas como DALL-E y ChatGPT generan debates sobre la creatividad y la ética en la inteligencia artificial (IA).<br/>
+                  <span className="year">2024:</span> La IA se vuelve omnipresente, impactando en todo, desde las búsquedas hasta las comunicaciones.<br/>
+                  <span className="year">2025 y más allá:</span> La inteligencia artificial (IA), los satélites de órbita terrestre baja (LEO), las redes de fibra hasta el hogar (FTTH) y los sistemas nativos de la nube continuarán impulsando el entorno de las telecomunicaciones.
+                </p>
               </div>
             </div>
           </div>

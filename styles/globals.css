@@ -45,6 +45,9 @@ p { line-height: 1.6; }
 /* Make panel text match image height and scroll when overflow */
 .panel-text { height: 220px; overflow-y: auto; padding-right: 0.5rem; }
 
+/* Year styling inside panels */
+.panel-text .year { font-weight: 700; color: #0ea5e9; margin-right: 0.4rem; }
+
 /* Show matching panel when radio is checked (radios are siblings of the slide section) */
 #slideCheckbox1:checked ~ section.slide .slides .panel1,
 #slideCheckbox2:checked ~ section.slide .slides .panel2,
