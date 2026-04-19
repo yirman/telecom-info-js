@@ -28,9 +28,46 @@ p { line-height: 1.6; }
 .slide-input { position: absolute; opacity: 0; width: 0; height: 0; pointer-events: none; }
 .slide-button { cursor: pointer; padding: 0.45rem 0.9rem; border-radius: 8px; border: 1px solid #d1d5db; background: #ffffff; color: #0f172a; transition: all 160ms ease; box-shadow: 0 1px 0 rgba(2,6,23,0.04); }
 .slide-button:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(2,6,23,0.06); }
-.slide-input:checked + .slide-button { background: #0ea5e9; color: #ffffff; border-color: #0ea5e9; box-shadow: 0 8px 24px rgba(14,165,233,0.16); transform: translateY(-2px); }
 .slide-button:focus-visible { outline: 3px solid rgba(14,165,233,0.18); outline-offset: 2px; }
 
 @media (max-width: 640px) {
 	.slide-button { font-size: 14px !important; padding: 0.4rem 0.6rem; }
+}
+
+/* Slides content panels */
+.slides { max-width: 1100px; margin: 1rem auto; padding: 0 1rem; }
+.slide-panel { display: none; gap: 1.5rem; align-items: center; background: #ffffff; border: 1px solid #e6edf3; padding: 1rem; border-radius: 10px; box-shadow: 0 6px 18px rgba(2,6,23,0.04); }
+.panel-image { flex: 0 0 45%; height: 220px; border-radius: 8px; background: linear-gradient(180deg,#f1f9fb,#ffffff); border: 2px dashed #e6f0fa; }
+.panel-text { flex: 1; }
+.panel-text h3 { margin: 0 0 0.5rem; }
+.panel-text p { margin: 0; color: #374151; }
+
+/* Show matching panel when radio is checked (radios are siblings of the slide section) */
+#slideCheckbox1:checked ~ section.slide .slides .panel1,
+#slideCheckbox2:checked ~ section.slide .slides .panel2,
+#slideCheckbox3:checked ~ section.slide .slides .panel3,
+#slideCheckbox4:checked ~ section.slide .slides .panel4,
+#slideCheckbox5:checked ~ section.slide .slides .panel5,
+#slideCheckbox6:checked ~ section.slide .slides .panel6 {
+	display: flex;
+}
+
+@media (max-width: 800px) {
+	.slide-panel { flex-direction: column; }
+	.panel-image { width: 100%; height: 160px; flex: none; }
+}
+
+/* Tabs shown below slides */
+.tabs { display: flex; gap: 0.6rem; justify-content: center; margin-top: 1rem; flex-wrap: wrap; }
+/* color the corresponding tab when radio is checked (radios are siblings of the tabs section) */
+#slideCheckbox1:checked ~ .tabs-section .tabs label[for="slideCheckbox1"],
+#slideCheckbox2:checked ~ .tabs-section .tabs label[for="slideCheckbox2"],
+#slideCheckbox3:checked ~ .tabs-section .tabs label[for="slideCheckbox3"],
+#slideCheckbox4:checked ~ .tabs-section .tabs label[for="slideCheckbox4"],
+#slideCheckbox5:checked ~ .tabs-section .tabs label[for="slideCheckbox5"],
+#slideCheckbox6:checked ~ .tabs-section .tabs label[for="slideCheckbox6"] {
+	background: #0ea5e9;
+	color: #ffffff;
+	border-color: #0ea5e9;
+	box-shadow: 0 8px 24px rgba(14,165,233,0.12);
 }

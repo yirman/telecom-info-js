@@ -103,24 +103,72 @@ export default function Home() {
           </div>
         </section>
 
+        <input className="slide-input" type="radio" id="slideCheckbox1" name="slides" defaultChecked />
+        <input className="slide-input" type="radio" id="slideCheckbox2" name="slides" />
+        <input className="slide-input" type="radio" id="slideCheckbox3" name="slides" />
+        <input className="slide-input" type="radio" id="slideCheckbox4" name="slides" />
+        <input className="slide-input" type="radio" id="slideCheckbox5" name="slides" />
+        <input className="slide-input" type="radio" id="slideCheckbox6" name="slides" />
+
         <section className="slide">
-          <nav>
-            <input className="slide-input" type="radio" id="slideCheckbox1" name="slides" defaultChecked />
+          <div className="slides">
+            <div className="slide-panel panel1">
+              <div className="panel-image" aria-hidden></div>
+              <div className="panel-text">
+                <h3>Antes de la electricidad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
+              </div>
+            </div>
+
+            <div className="slide-panel panel2">
+              <div className="panel-image" aria-hidden></div>
+              <div className="panel-text">
+                <h3>1800–1900</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+              </div>
+            </div>
+
+            <div className="slide-panel panel3">
+              <div className="panel-image" aria-hidden></div>
+              <div className="panel-text">
+                <h3>1900–1950</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+
+            <div className="slide-panel panel4">
+              <div className="panel-image" aria-hidden></div>
+              <div className="panel-text">
+                <h3>1950–1970</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent.</p>
+              </div>
+            </div>
+
+            <div className="slide-panel panel5">
+              <div className="panel-image" aria-hidden></div>
+              <div className="panel-text">
+                <h3>1970–2000</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam.</p>
+              </div>
+            </div>
+
+            <div className="slide-panel panel6">
+              <div className="panel-image" aria-hidden></div>
+              <div className="panel-text">
+                <h3>Más allá</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="tabs-section">
+          <nav className="tabs">
             <label className="slide-button" htmlFor="slideCheckbox1" style={{fontSize: '1.5vw'}}>Antes de la electricidad</label>
-
-            <input className="slide-input" type="radio" id="slideCheckbox2" name="slides" />
             <label className="slide-button" htmlFor="slideCheckbox2" style={{fontSize: '1.5vw'}}>1800–1900</label>
-
-            <input className="slide-input" type="radio" id="slideCheckbox3" name="slides" />
             <label className="slide-button" htmlFor="slideCheckbox3" style={{fontSize: '1.5vw'}}>1900–1950</label>
-
-            <input className="slide-input" type="radio" id="slideCheckbox4" name="slides" />
             <label className="slide-button" htmlFor="slideCheckbox4" style={{fontSize: '1.5vw'}}>1950–1970</label>
-
-            <input className="slide-input" type="radio" id="slideCheckbox5" name="slides" />
             <label className="slide-button" htmlFor="slideCheckbox5" style={{fontSize: '1.5vw'}}>1970–2000</label>
-
-            <input className="slide-input" type="radio" id="slideCheckbox6" name="slides" />
             <label className="slide-button" htmlFor="slideCheckbox6" style={{fontSize: '1.5vw'}}>Más allá</label>
           </nav>
         </section>
