@@ -109,6 +109,10 @@ export default function Home() {
         <input className="slide-input" type="radio" id="slideCheckbox5" name="slides" />
         <input className="slide-input" type="radio" id="slideCheckbox6" name="slides" />
 
+        <section className="timeline-header">
+          <h2 className="timeline-title">Línea de tiempo histórica</h2>
+        </section>
+
         <section className="slide">
           <div className="slides">
             <div className="slide-panel panel1">
@@ -258,9 +262,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="export-note">
-          <p>Run <code>npm run export</code> to build static HTML in <code>out/</code>.</p>
-        </section>
       </main>
     </>
   )
