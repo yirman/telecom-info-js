@@ -20,6 +20,31 @@ main { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neu
 
 .export-note { text-align: center; padding-bottom: 2rem; color: #6b7280; }
 
+/* Insights / bubbles */
+.insights { max-width: 1100px; margin: 2.5rem auto; padding: 1rem; }
+.insights-title { text-align: center; margin: 0 0 1rem; font-size: 1.25rem; color: #0f172a; }
+.bubbles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.bubble { background: linear-gradient(180deg,#ffffff,#fbfdff); border: 1px solid #e6eef6; padding: 1rem; border-radius: 14px; box-shadow: 0 8px 28px rgba(2,6,23,0.06); position: relative; }
+.bubble h4 { margin: 0 0 0.5rem; font-size: 1rem; }
+.bubble p { margin: 0; color: #374151; font-size: 0.95rem; line-height: 1.5; }
+.bubble::after { content: ''; position: absolute; bottom: -10px; left: 22px; width: 18px; height: 18px; background: #ffffff; transform: rotate(45deg); border-left: 1px solid #e6eef6; border-bottom: 1px solid #e6eef6; box-shadow: 0 6px 18px rgba(2,6,23,0.04); }
+
+/* color accents for each bubble */
+.bubbles .bubble:nth-child(1) { border-left: 6px solid #0ea5e9; }
+.bubbles .bubble:nth-child(2) { border-left: 6px solid #10b981; }
+.bubbles .bubble:nth-child(3) { border-left: 6px solid #f59e0b; }
+.bubbles .bubble:nth-child(4) { border-left: 6px solid #ef4444; }
+.bubbles .bubble:nth-child(5) { border-left: 6px solid #8b5cf6; }
+
+@media (max-width: 900px) {
+	.bubbles { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 600px) {
+	.bubbles { grid-template-columns: 1fr; }
+	.bubble::after { left: 14px; }
+}
+
 /* Small adjustments */
 h1 { font-size: 2rem; margin-bottom: 0.5rem; }
 p { line-height: 1.6; }

@@ -228,6 +228,36 @@ export default function Home() {
           </nav>
         </section>
 
+        <section className="insights">
+          <h2 className="insights-title">Reflexiones</h2>
+          <div className="bubbles">
+            <article className="bubble">
+              <h4>1. ¿Los avances científicos ayudan al ser humano?</h4>
+              <p>Sí, actúan como catalizadores del desarrollo. Reducen la latencia en la resolución de problemas críticos (medicina, ingeniería, infraestructura). Son una herramienta de doble filo: el marco ético humano determina si el impacto es constructivo o destructivo.</p>
+            </article>
+
+            <article className="bubble">
+              <h4>2. ¿Evolucionamos o involucionamos?</h4>
+              <p>Vivimos una evolución asimétrica: la capacidad técnica crece exponencialmente, pero la hiperdependencia de pantallas puede erosionar la atención profunda, la memoria y la calidad de la interacción social.</p>
+            </article>
+
+            <article className="bubble">
+              <h4>3. ¿La Revolución Industrial benefició al ser humano?</h4>
+              <p>A largo plazo sí, con estandarización y mejoras en salud y producción. Inicialmente los mayores beneficiarios fueron los dueños del capital; la clase trabajadora sufrió explotación antes de consolidar derechos laborales.</p>
+            </article>
+
+            <article className="bubble">
+              <h4>4. ¿Los medios digitales informan o desinforman?</h4>
+              <p>Ambos, pero el modelo de negocio favorece la desinformación: algoritmos de engagement producen cámaras de eco y amplifican fake news, sepultando a veces la verdad objetiva.</p>
+            </article>
+
+            <article className="bubble">
+              <h4>5. Globalización y Capitalismo: ¿quién se beneficia?</h4>
+              <p>Principalmente grandes corporaciones tecnológicas y propietarios de infraestructura y datos. Aun así, las herramientas digitales también democratizan oportunidades para startups e individuos, aunque con desventajas estructurales.</p>
+            </article>
+          </div>
+        </section>
+
         <section className="export-note">
           <p>Run <code>npm run export</code> to build static HTML in <code>out/</code>.</p>
         </section>
