@@ -4,14 +4,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Principios Básicos e Impacto Social de las Telecomunicaciones</title>
+        <title>Fundamentos y Evolución de las Redes de Comunicación</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         <section className="hero">
           <div>
-            <h1 className="title">Principios Básicos e Impacto Social de las Telecomunicaciones</h1>
+            <h1 className="title">Fundamentos y Evolución de las Redes de Comunicación</h1>
           </div>
+        </section>
+
+        <section className="concepts-header">
+          <h2 className="concepts-title">Conceptos fundamentales</h2>
         </section>
 
         <section className="infographic">
@@ -265,7 +269,7 @@ export default function Home() {
         <footer className="site-footer">
           <div className="footer-inner">
             <p className="footer-author">Autor: <strong>Germán Guevara</strong> — <a href="mailto:germanguevara2496@example.com">germanguevara2496@gmail.com</a></p>
-            <p className="footer-copy">© {new Date().getFullYear()} Principios Básicos e Impacto Social de las Telecomunicaciones</p>
+            <p className="footer-copy">© {new Date().getFullYear()} Fundamentos y Evolución de las Redes de Comunicación</p>
           </div>
         </footer>
 
