@@ -114,10 +114,18 @@ export default function Home() {
           <div className="slides">
             <div className="slide-panel panel1">
               <div className="panel-image" aria-hidden></div>
-              <div className="panel-text">
-                <h3>Antes de la electricidad</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-              </div>
+                <div className="panel-text">
+                  <h3>Antes de la electricidad</h3>
+                  <p>
+                      1200 a. C.: Se utilizan señales de fuego en el asedio de Troya.<br/>
+                      776 a. C.: Primer uso documentado de palomas mensajeras para anunciar al ganador olímpico a Atenas.<br/>
+                      200 a. C.: Egipto y China utilizan mensajeros a pie y a caballo mediante estaciones de relevo.<br/>
+                      150 a. C.: El historiador griego Polibo convierte el alfabeto griego a numérico, lo que permite la transmisión de textos codificados.<br/>
+                      37 d. C.: Heliógrafos: El emperador romano Tiberio utiliza espejos para comunicarse con su imperio.<br/>
+                      1608: Se inventa el telescopio, lo que permite a los barcos en alta mar utilizar banderas de señales.<br/>
+                      1793: Claude Chappe utiliza semáforos mecánicos en torres en lo alto de las colinas en Francia.
+                  </p>
+                </div>
             </div>
 
             <div className="slide-panel panel2">
