@@ -291,27 +291,27 @@ export default function Home() {
           <div className="bubbles">
             <article className="bubble">
               <h4>🔬 1. ¿Los avances científicos ayudan al ser humano?</h4>
-              <p>Sí, actúan como catalizadores del desarrollo. Reducen la latencia en la resolución de problemas críticos (medicina, ingeniería, infraestructura). Son una herramienta de doble filo: el marco ético humano determina si el impacto es constructivo o destructivo.</p>
+              <p>Sí, generan impulso a los seres humanos para su desarrollo. Benefician al desempeño en sus labores (medicina, ingeniería, arquitectura, entre otras). Son una herramienta de doble filo ya que la ética de nuestra parte como seres humanos determina si el impacto y los cambios son constructivos o destructivos.</p>
             </article>
 
             <article className="bubble">
-              <h4>🧭 2. ¿Evolucionamos o involucionamos?</h4>
-              <p>Vivimos una evolución asimétrica: la capacidad técnica crece exponencialmente, pero la hiperdependencia de pantallas puede erosionar la atención profunda, la memoria y la calidad de la interacción social.</p>
+              <h4>🧭 2. ¿Evolucionamos o Involucionamos con el progreso de la Telecomunicaciones?</h4>
+              <p>El avance de las telecomunicaciones sí nos beneficia en muchos aspectos, como la conectividad y el acceso a la información. Sin embargo, también plantea ciertos desafíos, como la privacidad y la dependencia tecnológica.</p>
             </article>
 
             <article className="bubble">
-              <h4>🏭 3. ¿La Revolución Industrial benefició al ser humano?</h4>
-              <p>A largo plazo sí, con estandarización y mejoras en salud y producción. Inicialmente los mayores beneficiarios fueron los dueños del capital; la clase trabajadora sufrió explotación antes de consolidar derechos laborales.</p>
+              <h4>🏭 3. ¿La Revolución Industrial benefició al ser humano? ¿A quiénes específicamente?</h4>
+              <p>A largo plazo sí, con mejoras en salud y producción. Inicialmente los mayores beneficiarios fueron los dueños del capital; la clase trabajadora sufrió explotación antes de lograr derechos laborales.</p>
             </article>
 
             <article className="bubble">
-              <h4>📰 4. ¿Los medios digitales informan o desinforman?</h4>
-              <p>Ambos, pero el modelo de negocio favorece la desinformación: algoritmos de engagement producen cámaras de eco y amplifican fake news, sepultando a veces la verdad objetiva.</p>
+              <h4>📰 4. ¿Los medios de Comunicación digital (actualmente) informan o desinforman?</h4>
+              <p>Ambos, pero la balanza pareciera inclinarse hacia la desinformación.</p>
             </article>
 
             <article className="bubble">
-              <h4>🌍 5. Globalización y Capitalismo: ¿quién se beneficia?</h4>
-              <p>Principalmente grandes corporaciones tecnológicas y propietarios de infraestructura y datos. Aun así, las herramientas digitales también democratizan oportunidades para startups e individuos, aunque con desventajas estructurales.</p>
+              <h4>🌍 5. En la actualidad se refleja la era de a Globalización y el Capitalismo Salvaje. ¿Quiénes resultan más beneficiados con las Tecnologías digitales?</h4>
+              <p>Principalmente grandes empresas tecnológicas y propietarias de infraestructura y datos. Aun así, las herramientas digitales también generan oportunidades para el resto de la población. La tecnología ha generado una gran cantidad de oportunidades de trabajo tanto a nivel local como global permitiendo trabajar de forma remota. Con la facilidad que brindan las telecomunicaciones y el desarrollo de nuevas plataformas, pueden simplificar y mejorar muchos aspectos de la vida cotidiana.</p>
             </article>
           </div>
         </section>
