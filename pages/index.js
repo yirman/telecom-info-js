@@ -315,11 +315,22 @@ export default function Home() {
             </article>
           </div>
         </section>
+        <section className="bibliography">
+          <div className="bibliography-inner">
+            <h2 className="bibliography-title">📚 Bibliografía</h2>
+            <ul className="bibliography-list">
+              <li><a href="https://www.pce-fet.com/common/library/books/51/9134_FundamentalsofTelecommunications_R.Freeman.pdf" target="_blank" rel="noopener noreferrer">Fundamentals of Telecommunications — R. Freeman (PDF)</a></li>
+              <li><a href="https://www.internetsociety.org/wp-content/uploads/2017/10/Fundamentals-of-telecommunications-1.pdf" target="_blank" rel="noopener noreferrer">Fundamentals of Telecommunications — Internet Society (PDF)</a></li>
+              <li><a href="https://en.wikipedia.org/wiki/Edward_Snowden" target="_blank" rel="noopener noreferrer">Edward Snowden — Wikipedia</a></li>
+              <li><a href="https://github.com/iamcryptoki/snowden-archive/tree/master/documents" target="_blank" rel="noopener noreferrer">Snowden Archive — GitHub</a></li>
+            </ul>
+          </div>
+        </section>
 
         <footer className="site-footer">
           <div className="footer-inner">
-            <p className="footer-author">Autor: <strong>Germán Guevara</strong> — <a href="mailto:germanguevara2496@example.com">germanguevara2496@gmail.com</a></p>
-            <p className="footer-copy">© {new Date().getFullYear()} Fundamentos y Evolución de las Redes de Comunicación</p>
+            <p className="footer-author">Autor: <strong>Germán Guevara</strong> 🧑🏻‍💻 — <a href="mailto:germanguevara2496@example.com">germanguevara2496@gmail.com</a> 📧</p>
+            <p className="footer-copy">© {new Date().getFullYear()} Principios Básicos e Impacto Social de las Telecomunicaciones</p>
           </div>
         </footer>
 
