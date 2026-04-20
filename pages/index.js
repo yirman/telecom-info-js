@@ -15,17 +15,13 @@ export default function Home() {
         </section>
 
         <section className="definition">
-          <h2 className="definition-title">Definición</h2>
+          <h2 className="definition-title">Definición y conceptos fundamentales</h2>
           <div className="definition-inner">
             <p>El autor <strong>Roger L. Freeman</strong> define este concepto como la transmisión de información a distancia, la cual abarca no solo la voz, sino también datos e imágenes mediante señales eléctricas.</p>
           </div>
         </section>
 
         <section className="infographic">
-
-        <section className="concepts-header">
-          <h2 className="concepts-title">Conceptos fundamentales</h2>
-        </section>
         
           <div className="info-grid" role="list">
             <div className="card" role="listitem">
