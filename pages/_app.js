@@ -2,7 +2,7 @@ import { useEffect } from 'react'
 import '../styles/globals.css'
 
 export default function MyApp({ Component, pageProps }) {
-  useEffect(() => {
+  /*useEffect(() => {
     if (typeof window === 'undefined') return
 
     const gradients = {
@@ -71,7 +71,7 @@ export default function MyApp({ Component, pageProps }) {
       observer.disconnect()
       if (currentOverlay) try { currentOverlay.remove() } catch (e) {}
     }
-  }, [])
+  }, [])*/
 
   return <Component {...pageProps} />
 }

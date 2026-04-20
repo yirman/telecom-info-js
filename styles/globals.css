@@ -1,7 +1,16 @@
 html,body,#__next { height: 100%; }
-body { margin: 0; color: #111827; background: #ffffff; }
-/* smooth transition for background color changes */
-body { transition: background 700ms ease, color 400ms ease; }
+body {
+	margin: 0;
+	color: #111827;
+	/* Use the project background image for the whole page and keep it fixed */
+	background-image: url('/images/panels/background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/* Avoid transitioning the background to prevent flicker/vanish */
+	transition: color 400ms ease;
+}
 main { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; position: relative; z-index: 1; }
 
 /* Hero / centered title */
@@ -143,12 +152,14 @@ p { line-height: 1.6; }
 	box-shadow: 0 8px 24px rgba(14,165,233,0.12);
 }
 
-/* Background themes triggered while scrolling */
-body.bg-hero { background: linear-gradient(180deg, #eef2ff 0%, #ffffff 60%); color: #0f172a; }
-body.bg-infographic { background: linear-gradient(180deg, #f0fdfa 0%, #ffffff 60%); color: #052e2f; }
-body.bg-slide { background: linear-gradient(180deg, #fff7ed 0%, #ffffff 60%); color: #3b2f1f; }
-body.bg-tabs { background: linear-gradient(180deg, #f8fafc 0%, #ffffff 60%); color: #0f172a; }
-body.bg-export { background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); color: #0f172a; }
+/* Background themes triggered while scrolling: no color or background overrides */
+body.bg-hero,
+body.bg-infographic,
+body.bg-slide,
+body.bg-tabs,
+body.bg-export {
+	/* intentionally empty to preserve the page background image and text color */
+}
 
 /* Optional subtle transition for panels to blend with background */
 .slide-panel, .card { transition: background-color 500ms ease, transform 220ms ease; }
