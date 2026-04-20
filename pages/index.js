@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Fundamentos y Evolución de las Redes de Comunicación</title>
+        <title>Principios Básicos e Impacto Social de las Telecomunicaciones</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
         <section className="hero">
-          <div>
-            <h1 className="title">Fundamentos y Evolución de las Redes de Comunicación</h1>
+          <div className="hero-inner">
+            <h1 className="title">Principios Básicos e Impacto Social de las Telecomunicaciones</h1>
           </div>
         </section>
 
