@@ -2,12 +2,7 @@ html,body,#__next { height: 100%; }
 body {
 	margin: 0;
 	color: #111827;
-	/* Use the project background image for the whole page and keep it fixed */
-	background-image: url('/images/panels/background.jpg');
-	background-size: cover;
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	/* Background moved to pages/index.js to allow per-page control */
 	/* Avoid transitioning the background to prevent flicker/vanish */
 	transition: color 400ms ease;
 }

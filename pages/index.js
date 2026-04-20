@@ -7,7 +7,13 @@ export default function Home() {
         <title>Principios Básicos e Impacto Social de las Telecomunicaciones</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <main>
+      <main style={{
+        backgroundImage: `url('images/panels/background.jpg')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
+        backgroundRepeat: 'no-repeat'
+      }}>
         <section className="hero">
           <div className="hero-inner">
             <h1 className="title">📡🌐📶 Principios Básicos e Impacto Social de las Telecomunicaciones 📶🌐📡</h1>
