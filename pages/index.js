@@ -117,12 +117,10 @@ export default function Home() {
         <input className="slide-input" type="radio" id="slideCheckbox5" name="slides" />
         <input className="slide-input" type="radio" id="slideCheckbox6" name="slides" />
 
-        <section className="timeline-header">
-          <h2 className="timeline-title">Línea de tiempo histórica</h2>
-        </section>
-
         <section className="slide">
-          <div className="slides">
+          <div className="slide-inner">
+            <h2 className="timeline-title">Línea de tiempo histórica</h2>
+            <div className="slides">
             <div className="slide-panel panel1">
               <div className="panel-image" aria-hidden style={{backgroundImage: `url('images/panels/panel1.jpg')`}}></div>
                 <div className="panel-text">
@@ -226,7 +224,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </div>
+          </div></div>
         </section>
 
         <section className="tabs-section">

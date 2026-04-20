@@ -165,6 +165,9 @@ body.bg-export {
 /* Optional subtle transition for panels to blend with background */
 .slide-panel, .card { transition: background-color 500ms ease, transform 220ms ease; }
 
+/* Wrapper so timeline title and slides share the same white panel */
+.slide-inner { background: #ffffff; border: 1px solid #e6edf3; padding: 1rem; border-radius: 10px; box-shadow: 0 6px 18px rgba(2,6,23,0.04); display: block; gap: 1rem; margin: 1rem auto; max-width: 1100px; }
+
 /* Footer */
 .site-footer { margin-top: 2.5rem; padding: 1.25rem 0; background: linear-gradient(180deg,#ffffff,#f8fafc); border-top: 1px solid #e6edf3; }
 .footer-inner { max-width: 1100px; margin: 0 auto; padding: 0 1rem; text-align: center; color: #6b7280; }
