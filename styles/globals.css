@@ -70,7 +70,7 @@ main { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neu
 .definition-title { margin: 0 0 0.5rem; font-size: clamp(1rem, 2.1vw, 1.25rem); color: #0f172a; font-weight: 600; text-align: center; }
 
 /* Privacy section */
-.privacy { max-width: 1100px; margin: 1.5rem auto; padding: 1rem; border-radius: 10px; background: linear-gradient(180deg,#ffffff,#fbfdff); border: 1px solid #e6eef6; box-shadow: 0 6px 18px rgba(2,6,23,0.04); }
+.privacy { max-width: 1100px; margin: 2.5rem auto; padding: 1rem; border-radius: 10px; background: linear-gradient(180deg,#ffffff,#fbfdff); border: 1px solid #e6eef6; box-shadow: 0 6px 18px rgba(2,6,23,0.04); }
 .privacy-inner { padding: 0 1rem; }
 .privacy-title { margin: 0 0 0.5rem; font-size: clamp(1rem, 2.2vw, 1.3rem); color: #0f172a; font-weight: 600; text-align: center; }
 .privacy p { margin: 0; color: #374151; line-height: 1.6; text-align: center; max-width: 900px; margin-left: auto; margin-right: auto; }
@@ -141,7 +141,7 @@ p { line-height: 1.6; }
 }
 
 /* Tabs shown below slides */
-.tabs { display: flex; gap: 0.6rem; justify-content: center; margin-top: 1rem; flex-wrap: wrap; }
+.tabs { display: flex; gap: 0.6rem; justify-content: center; margin-top: 0.15rem; flex-wrap: wrap; }
 /* color the corresponding tab when radio is checked (radios are siblings of the tabs section) */
 #slideCheckbox1:checked ~ .tabs-section .tabs label[for="slideCheckbox1"],
 #slideCheckbox2:checked ~ .tabs-section .tabs label[for="slideCheckbox2"],
@@ -168,7 +168,7 @@ body.bg-export {
 .slide-panel, .card { transition: background-color 500ms ease, transform 220ms ease; }
 
 /* Wrapper so timeline title and slides share the same white panel */
-.slide-inner { background: #ffffff; border: 1px solid #e6edf3; padding: 1rem; border-radius: 10px; box-shadow: 0 6px 18px rgba(2,6,23,0.04); display: block; gap: 1rem; margin: 1rem auto; max-width: 1100px; }
+.slide-inner { background: #ffffff; border: 1px solid #e6edf3; padding: 1rem; border-radius: 10px; box-shadow: 0 6px 18px rgba(2,6,23,0.04); display: block; gap: 1rem; margin: 0.15rem auto; max-width: 1100px; }
 
 /* Footer */
 .site-footer { margin-top: 2.5rem; padding: 1.25rem 0; background: linear-gradient(180deg,#ffffff,#f8fafc); border-top: 1px solid #e6edf3; }
