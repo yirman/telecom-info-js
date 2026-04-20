@@ -20,11 +20,12 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="infographic">
+
         <section className="concepts-header">
           <h2 className="concepts-title">Conceptos fundamentales</h2>
         </section>
-
-        <section className="infographic">
+        
           <div className="info-grid" role="list">
             <div className="card" role="listitem">
               <div className="card-image" aria-hidden style={{backgroundImage: `url('images/panels/card1.png')`}}></div>
